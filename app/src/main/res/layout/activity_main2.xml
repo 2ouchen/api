@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C4C4C"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:id="@+id/mytitle"
+        android:textColor="#C5C5C5"
+        />
+
+    <TextView
+        android:id="@+id/mydescr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="Descritpion"
+        android:textColor="#A5A5A5"
+        android:textSize="35sp" />
+
+
+</LinearLayout>
